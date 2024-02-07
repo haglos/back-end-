@@ -53,8 +53,7 @@ router.get("/test", async (req, res, next) => {
             return data.client_phone_numbers
         })
 
-        console.log(phoneNumbers)
-        return
+      
         var data = {
             "to":phoneNumbers,
             "from": "himalone",
